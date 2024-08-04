@@ -14,10 +14,7 @@ namespace Gerador_de_senha
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            string vw = Properties.Settings.Default.Valido;
-
-
-             Application.Run(new Code());
+            Application.Run(new Code());
    
 
         }
